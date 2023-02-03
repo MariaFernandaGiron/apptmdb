@@ -302,7 +302,7 @@ def movieDirector(movie_title):
     }
   return response
 
-@app.route("/")
+@app.route("/hi")
 def hello_world():
     return '<p>Hello Woooooooorld</p>'
 
